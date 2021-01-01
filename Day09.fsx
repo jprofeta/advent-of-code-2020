@@ -6,7 +6,7 @@ open System
 open System.Collections.Generic
 open System.Text.RegularExpressions
 
-#load "Day9Input.fsx"; open Input
+#load "Day09Input.fsx"; open Input
 
 let indexOfInvalid (windowSize : int) (cypherStream : int64 seq) : int =
     (cypherStream

@@ -6,7 +6,7 @@ open System
 open System.Collections.Generic
 open System.Text.RegularExpressions
 
-#load "Day4Input.fsx"; open Input
+#load "Day04Input.fsx"; open Input
 
 // These need to match the whole string so the '^' and '$' are necessary.
 let lengthRegex = Regex("^(?<len>[0-9]+)(?<unit>[a-z]+)$", RegexOptions.Compiled)

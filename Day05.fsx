@@ -6,7 +6,7 @@ open System
 open System.Collections.Generic
 open System.Text.RegularExpressions
 
-#load "Day5Input.fsx"; open Input
+#load "Day05Input.fsx"; open Input
 
 let bin2int (s : string) : int =
     let rec bin2int' (s : string) (i : int) (v : int) : int =

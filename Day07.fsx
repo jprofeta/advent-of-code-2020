@@ -6,7 +6,7 @@ open System
 open System.Collections.Generic
 open System.Text.RegularExpressions
 
-#load "Day7Input.fsx"; open Input
+#load "Day07Input.fsx"; open Input
 
 let bagRuleRegex = Regex(@"^(?<color>.+) bags contain (?<list>.+)\.$", RegexOptions.Compiled)
 let bagListItemRegex = Regex(@"(?<count>[0-9]+) (?<color>[^,.]+) bags?", RegexOptions.Compiled)

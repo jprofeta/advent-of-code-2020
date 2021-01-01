@@ -6,7 +6,7 @@ open System
 open System.Collections.Generic
 open System.Text.RegularExpressions
 
-#load "Day8Input.fsx"; open Input
+#load "Day08Input.fsx"; open Input
 
 type Instruction = string*int
 

@@ -6,7 +6,7 @@ open System
 open System.Collections.Generic
 open System.Text.RegularExpressions
 
-#load "Day6Input.fsx"; open Input
+#load "Day06Input.fsx"; open Input
 
 // Returns a sequence of elements that occur in all input sequences
 let join (sources : seq<#seq<'T>>) : seq<'T> =
