@@ -36,6 +36,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		Day16Input.fsx = Day16Input.fsx
 		Day17.fsx = Day17.fsx
 		Day17Input.fsx = Day17Input.fsx
+		Day18.fsx = Day18.fsx
+		Day18Input.fsx = Day18Input.fsx
 	EndProjectSection
 EndProject
 Global
